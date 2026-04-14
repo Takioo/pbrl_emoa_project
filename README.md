@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PBRL-EMOA
 
 This repository contains preference-based multi-objective optimization experiments built around a DDPG-assisted EMOA workflow.
@@ -55,3 +56,7 @@ python scripts/run_experiment.py 1 1 3 10 1 - - 0 nobias
 - `tests.py` from the original repository was an experiment runner, not a unit-test module, so it has been moved to `scripts/run_experiment.py`.
 - `ddpgemoa.py` and `ddpgrank.py` had a circular dependency risk; the RL agent was separated into `rl/ddpg_agent.py`, and the main algorithm now imports it in one direction only.
 - `journal_params.csv` is stored under `configs/experiments/`.
+=======
+# pbrl_emoa_project
+This repository contains preference-based multi-objective optimization experiments built around a DDPG-assisted EMOA workflow for the paper “Agile Project Portfolio Realignment: A Framework of PbRL-EMOA for Shifting Strategic Priority”.
+>>>>>>> 9ed9496d54510e48e2cc0e0b44fddbdf0acaa1c8
